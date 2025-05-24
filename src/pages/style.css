@@ -1,0 +1,25 @@
+body { margin: 0; font-family: 'Roboto', Arial, sans-serif; background: #f9f9f9; }
+.footer-root { width: 100%; padding: 32px 0 16px 0; margin-top: 48px; font-size: 14px; line-height: 1.5; background: #2D2D2D; color: #fff; transition: background 0.3s, color 0.3s; user-select: none; }
+.footer-root.high-contrast { background: #fff; color: #000; }
+.footer-container { max-width: 1280px; margin: 0 auto; padding: 0 16px; }
+.footer-grid { display: flex; flex-direction: column; gap: 32px; }
+.footer-col { flex: 1 1 0; margin-bottom: 16px; }
+.footer-col span { font-weight: bold; margin-bottom: 8px; display: block; }
+.footer-col a { color: inherit; text-decoration: none; transition: color 0.2s; display: block; margin-bottom: 4px; }
+.footer-col a:hover { color: #3B82F6; }
+.footer-social { display: flex; gap: 16px; margin-top: 8px; }
+.footer-social a { display: flex; align-items: center; transition: transform 0.2s; }
+.footer-social a:hover { transform: scale(1.1); }
+.footer-bottom { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; border-top: 1px solid #444; margin-top: 32px; padding-top: 16px; font-size: 12px; }
+.footer-root.high-contrast .footer-bottom { border-top: 1px solid #bbb; }
+.footer-visually-btn { display: flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 8px; border: 1px solid #fff; color: #fff; background: none; cursor: pointer; transition: background 0.2s, color 0.2s; margin-top: 8px; font-size: 14px; }
+.footer-root.high-contrast .footer-visually-btn { border: 1px solid #000; color: #000; }
+.footer-visually-btn:hover, .footer-root.high-contrast .footer-visually-btn:hover { background: #3B82F6; color: #fff; }
+.footer-lang-switch { margin-bottom: 16px; }
+.footer-lang-switch button { background: none; border: none; color: inherit; font-weight: bold; margin-right: 8px; cursor: pointer; font-size: 14px; opacity: 0.7; transition: opacity 0.2s; }
+.footer-lang-switch button.active, .footer-lang-switch button:hover { opacity: 1; text-decoration: underline; }
+@media (min-width: 768px) {
+.footer-grid { flex-direction: row; flex-wrap: wrap; justify-content: space-between; }
+.footer-col { min-width: 200px; max-width: 25%; margin-bottom: 0; }
+.footer-bottom { flex-direction: row; align-items: center; justify-content: space-between; }
+}
