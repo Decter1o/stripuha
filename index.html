@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <title>Document</title>
+    <script src="/public/js/script.js" defer></script>
+    <title>Национальный центр развития высшего образования</title>
 </head>
 <body>    
     <div class="header">
@@ -26,7 +27,7 @@
                 <li class="menu-item"><a href="#">Подать заявку</a></li>
                 <li class="menu-item"><a href="#">Проверить статус</a></li>
                 <li class="menu-item"><a href="#">Поиск вуза</a></li>
-                <li class="menu-item"><i class="bi bi-list"></i></li>
+                <li class="menu-item"><i class="bi bi-list" id="burger-menu-button"></i></li>
             </ul>
         </nav>
 
@@ -44,7 +45,80 @@
                 </select>
             </div>
 
-            <a href="/login" class="login-button">Личный кабинет</a>
+            <a href="#" class="login-button">Личный кабинет</a>
+        </div>
+    </div>
+    <div class="burger-menu" id="burger-menu">
+        <div class="burger-menu-block">
+            <ul>
+                <a href="#"><b>О центре</b></a>
+                <li><a href="#">История центра</a></li>
+                <li><a href="#">Стратегия и миссия</a></li>
+                <li><a href="#">Руководящий состав</a></li>
+                <li><a href="#">Структурные подразделения</a></li>
+                <li><a href="#">Меморандумы центра</a></li>
+                <li><a href="#">Мероприятия</a></li>
+                <li><a href="#">Общественная жизнь</a></li>
+                <li><a href="#">История центра</a></li>
+            </ul>
+        </div>
+        <div class="burger-menu-block">
+            <ul>
+                <a href="#"><b>Боллонский процесс</b></a>
+                <li><a href="#">История Болонского процесса</a></li>
+                <li><a href="#">Казахстан в Болонском процессе</a></li>
+                <li><a href="#">Предстедатели</a></li>
+                <li><a href="#">Как работает Болонский процесс</a></li>
+                <li><a href="#">Основные документы</a></li>
+                <li><a href="#">ESG & ECTS</a></li>
+                <li><a href="#">Инструменты ЕПВО</a></li>
+                <li><a href="#">UNESCO</a></li>
+                <li><a href="#">Аналитические отчеты</a></li>
+                <li><a href="#">Список ЕПВО, реализующих курсы Серебряного образования</a></li>
+            </ul>
+        </div>
+        <div class="burger-menu-block">
+            <ul>
+                <a href="#"><b>Периодические издания</b></a>
+                <li><a href="#">Журная “Высшая школа Казахстана”</a></li>
+                <li><a href="#">Дайджесты</a></li>
+            </ul>
+            <ul>
+                <a href="#"><b>Справочная инофрмация</b></a>
+                <li><a href="#">Материалы Национального центра развития высшего образования</a></li>
+                <li><a href="#">Образцы дипломов ВУЗов РК</a></li>
+                <li><a href="#">ESG & ECTS</a></li>
+                <li><a href="#">ВУЗы Казахстана</a></li>
+            </ul>
+        </div>
+        <div class="burger-menu-block">
+            <ul>
+                <a href="#"><b>Реестр ОП</b></a>
+                <li><a href="#">НПА</a></li>
+                <li><a href="#">ОПВО</a></li>
+                <li><a href="#">Эксперту ОП</a></li>
+                <li><a href="#">Семинары - тренинги Реестра ОП</a></li>
+            </ul>
+        </div>
+        <div class="burger-menu-block">
+            <ul>
+                <a href="#"><b>Деятельность</b></a>
+                <li><a href="#">Национальный доклад</a></li>
+                <li><a href="#">Содержания образовательных программ</a></li>
+                <li><a href="#">Академическая мобильность</a></li>
+                <li><a href="#">Признание документов об образовании</a></li>
+                <li><a href="#">Научные исследования</a></li>
+                <li><a href="#">Проектный офис</a></li>
+                <li><a href="#">Международное сотрудничество в сфере высшего обраования</a></li>
+                <li><a href="#">Программа «Мамандығым-болашағым»</a></li>
+                <li><a href="#">Атласы</a></li>
+            </ul>
+        </div>
+        <div class="burger-menu-block">
+            <ul>
+                <li><a href="#"><b>Вакансии</b></a></li>
+                <li><a href="#"><b>Вопрос-ответ</b></a></li>
+            </ul>
         </div>
     </div>
     <div class="body">
@@ -68,28 +142,28 @@
             <div class="news-box">
                 <div class="other-news">
                     <div class="news-element">
-                        <img src="/public/img/news1.jpg" alt="Обучение в Тюмени">
+                        <img src="/public/img/5303188054325982141.jpg" alt="Обучение в Тюмени">
                         <div class="news-content">
                             <div class="news-date">21 МАЯ 2025</div>
                             <h4>Казахстан принял участие в Ассамблее «Вечные вклады» 2025 в Санкт-Петербурге</h4>
                         </div>
                     </div>
                     <div class="news-element">
-                        <img src="/public/img/news2.jpg" alt="Семинар CIMEA и НСК">
+                        <img src="/public/img/5303188054325982133.jpg" alt="Семинар CIMEA и НСК">
                         <div class="news-content">
                             <div class="news-date">21 МАЯ 2025</div>
                             <h4>В Астане прошли семинары по признанию квалификаций и цифровым инструментам CIMEA и НСК</h4>
                         </div>
                     </div>
                     <div class="news-element">
-                        <img src="/public/img/news3.jpg" alt="Докладчик">
+                        <img src="/public/img/5303188054325982134.jpg" alt="Докладчик">
                         <div class="news-content">
                             <div class="news-date">21 МАЯ 2025</div>
                             <h4>В Астане прошли семинары по признанию квалификаций и цифровым инструментам CIMEA и НСК</h4>
                         </div>
                     </div>
                     <div class="news-element">
-                        <img src="/public/img/news4.jpg" alt="Битва умов">
+                        <img src="/public/img/image.png" alt="Битва умов">
                         <div class="news-content">
                             <div class="news-date">21 МАЯ 2025</div>
                             <h4>Определились победители межвузовской командной олимпиады «Битва умов»</h4>
@@ -98,10 +172,10 @@
                 </div>
                 <div class="main-news">
                     <div class="main-news-element">
-                        <img src="/public/img/main-news.jpg" alt="Взлет форум">
+                        <img src="/public/img/5303381469131995142.webp" alt="Взлет форум">
                         <div class="news-date">21 МАЯ 2025</div>
-                        <h4>На «Взлет»: проект «умного замка» Московского Политеха презентовали на масштабном карьерном форуме</h4>
-                        <p>Студенческую разработку «NFCKEY» представили 18 мая на карьерном форуме для молодежи «Взлет». Современное устройство «NFCKEY» позволяет открывать двери простым поднесением смартфона к замку. Главная цель...</p>
+                        <h4>Повысить проходной балл на ЕНТ для одной из специальностей хотят в Казахстане.</h4>
+                        <p>В Казахстане предложили установить единый минимальный проходной балл по всем предметам для поступающих на педагогические специальности по гранту.</p>
                     </div>
                 </div>
             </div>
@@ -109,53 +183,46 @@
         </div>        
         <div class="content-3">
             <h3>Популярные темы</h3>
-            <div class="popular-topics">
+            <div class="topics">
                 <div class="topic-1">
-                    <div class="topic-card large">
-                        <div class="topic-content">
+                    <div class="base-topic-item">
+                        <div class="topic-content-1">
                             <h2>Национальный рейтинг вузов</h2>
                             <p>70 вузов</p>
                             <div class="statistics">
                                 <div class="stat-item">
-                                    <span class="number">2913</span>
+                                    <span class="number"><b>2913</b></span>
                                     <span class="label">бюджет</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="number">5430</span>
+                                    <span class="number"><b>5430</b></span>
                                     <span class="label">платное</span>
                                 </div>
                             </div>
                             <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
                         </div>
                     </div>
-    
-                    <div class="topic-card large">
-                        <div class="topic-card medium dark">
-                            <div class="topic-content">
-                                <h2>Академическая честность как фактор обеспечения качества высшего образования</h2>
-                                <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
-                            </div>
-                        </div>
-                        
-                        <div class="topic-card medium light">
-                            <div class="topic-content">
-                                <h2>Аккредитация</h2>
-                                <p>53 документа</p>
-                                <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="topic-2">
-                    <div class="topic-card large blue">
-                        <div class="topic-content">
+                    <div class="base-topic-item">
+                        <div class="topic-content-2">
                             <h2>Открытый доступ к высшему образованию</h2>
                             <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
                         </div>
                     </div>
-                    
-                    <div class="topic-card large gold">
-                        <div class="topic-content">
+                </div>
+                <div class="topic-2">
+                    <div class="base-topic-item">
+                        <div class="topic-content-3-1">
+                            <h2>Академическая честность как фактор обеспечения качества высшего образования</h2>
+                            <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
+                        </div>
+                        <div class="topic-content-3-2">
+                            <h2>Аккредитация</h2>
+                            <p>53 документа</p>
+                            <a href="#" class="details-btn">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <div class="base-topic-item">
+                        <div class="topic-content-4">
                             <h2>Часто задаваемые вопросы</h2>
                             <a href="#" class="details-btn">ПЕРЕЙТИ</a>
                         </div>
@@ -188,24 +255,8 @@
                     <p>E-mail: <a href="mailto:cbpiam@n-k.kz">cbpiam@n-k.kz</a></p>
                 </div>
             </div>
-            <div class="content-4-center">
-                <form action="" method="POST">
-                    <h3>ОТПРАВЬТЕ НАМ СООБЩЕНИЕ</h3>
-                    <input type="text" name="name" placeholder="Ваше имя" required>
-                    <input type="email" name="email" placeholder="Электронная почта" required>
-                    <input type="tel" name="phone" placeholder="Телефон (по желанию)">
-                    <textarea name="message" placeholder="Сообщение" required></textarea>
-                    <div class="checkbox">
-                        <input type="checkbox" name="agreement" id="agreement" required>
-                        <label for="agreement">Я согласен(а) на обработку персональных данных</label>
-                    </div>
-                    <button type="submit">Отправить</button>
-                </form>
-            </div>
             <div class="content-4-right">
-                <div class="map-container">
-                    <img src="/public/img/map.jpg" alt="Карта расположения офиса">
-                </div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A421e3df49490a8338b14155e53b70c2487cd8c347285c847f7f46ce0fef8d540&amp;source=constructor"></iframe>
             </div>
         </div>
     </div>    
