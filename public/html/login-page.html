@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/login-page.css">
+    <script src="/public/js/login-page.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="auth side">
+        <div class="form-container">
+            <form action="" method="post">
+                <h1>Авторизация</h1>
+                <div class="field">
+                    <label for="username">Адрес электронной почты</label>
+                    <input type="text" name="username" id="username" placeholder="example@gmail.com" required>
+                    <span class="error-message" id="username-error">Адрес электронной почты не может быть пустым</span>
+                </div>
+                <div class="field">
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" id="password" placeholder="Ваш пароль" required>
+                    <span class="error-message" id="password-error">Пароль не может быть пустым</span>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+                <button type="submit" class="submit-btn auth-button">Войти</button>
+                <div class="links">
+                    <a href="#" class="forgot-password">Забыли пароль?</a>
+                </div>
+            </form>
+        </div>
+        <div class="screen left" id="auth-screen">
+            <h1 class="title">Вход</h1>
+        </div>
+    </div>
+    <div class="reg side">
+        <div class="form-container">
+            <form action="" method="post">
+                <h1>Регистрация</h1>
+                <div class="field">
+                    <label for="username">Наименование ВУЗа</label>
+                    <input type="text" name="username" id="username" placeholder="Пример: Экибастузский инженерно-технический институт" required>
+                    <span class="error-message" id="username-error">Наименование ВУЗа не может быть пустым</span>
+                </div>
+                <div class="field">
+                    <label for="username">Адрес электронной почты</label>
+                    <input type="text" name="username" id="username" placeholder="example@gmail.com" required>
+                    <span class="error-message" id="username-error">Адрес электронной почты</span>
+                </div>
+                <div class="field">
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" id="password" placeholder="Ваш пароль" required>
+                    <span class="error-message" id="password-error">Пароль не может быть пустым</span>
+                </div>
+                <div class="field">
+                    <label for="password">Подтверждение пароля</label>
+                    <input type="password" name="password" id="password" placeholder="Повторите пароль" required>
+                    <span class="error-message" id="password-error">Подалуйста подтвердите пароль</span>
+                </div>
+                <button type="submit" class="submit-btn reg-button">Регистрация</button>
+                <div class="links">
+                    <a href="#" class="forgot-password">Уже зарегистрированы?</a>
+                </div>
+            </form>
+        </div>
+        <div class="screen right" id="reg-screen">
+            <h1 class="title">Регистрация</h1>
+        </div>
+    </div>
+    <div class="lang-selector">
+        <select name="lang" id="lang" aria-label="Выбор языка">
+            <option value="kz">KZ</option>
+            <option value="ru">RU</option>
+            <option value="en">ENG</option>
+        </select>
+    </div>
+</body>
+</html>
